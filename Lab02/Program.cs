@@ -20,7 +20,9 @@ namespace Lab02
             float attackPower = 42.5f;
             double critMultiplier = 1.75;
             bool isBoss = true;
+
             // Lab02 part A
+
             Console.WriteLine("===== BOSS STATUS: INITIAL =====");
             Console.WriteLine($"Name: {bossName}");
             Console.WriteLine($"Rank: {rank}");
@@ -41,6 +43,13 @@ namespace Lab02
             Console.WriteLine($"HP: {currentHp} / {maxHp}");
             hpPercent = currentHp * 100 / maxHp;
             Console.WriteLine($"HP Percent: {hpPercent}%");
+
+            // Lab02 part B
+
+
+            
+
+
         }
     }
 }
