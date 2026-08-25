@@ -1,10 +1,46 @@
-﻿namespace Lab02
+﻿/*
+ * Student ID : 1690704455
+ * Name       : Lab02
+ * Section    : 129D
+ * No.        : N/A
+ * Course     : GI113 Computer Programming (GI)
+ */
+
+namespace Lab02
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            string bossName = "Kirin";
+            char rank = 'S';
+            int level = 7;
+            int maxHp = 240;
+            int currentHp = 175;
+            float attackPower = 42.5f;
+            double critMultiplier = 1.75;
+            bool isBoss = true;
+            // Lab02 part A
+            Console.WriteLine("===== BOSS STATUS: INITIAL =====");
+            Console.WriteLine($"Name: {bossName}");
+            Console.WriteLine($"Rank: {rank}");
+            Console.WriteLine($"Level: {level}");
+            Console.WriteLine($"HP: {currentHp} / {maxHp}");
+            Console.WriteLine($"Attack Power: {attackPower}");
+            Console.WriteLine($"Crit Multiplier: {critMultiplier}");
+            Console.WriteLine($"IsBoss: {isBoss}");
+            Console.WriteLine();
+            int hpPercent = currentHp * 100 / maxHp;
+            Console.WriteLine($"HP Percent: {hpPercent}%");
+            Console.WriteLine();
+            currentHp = currentHp - 60;
+            Console.WriteLine();
+            Console.WriteLine("Kirin takes 60 damage!");
+            Console.WriteLine();
+            Console.WriteLine("===== BOSS STATUS: AFTER DAMAGE =====");
+            Console.WriteLine($"HP: {currentHp} / {maxHp}");
+            hpPercent = currentHp * 100 / maxHp;
+            Console.WriteLine($"HP Percent: {hpPercent}%");
         }
     }
 }
