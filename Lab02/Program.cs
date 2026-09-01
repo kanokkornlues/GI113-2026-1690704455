@@ -143,6 +143,7 @@ namespace Lab02
             Console.WriteLine($"HP Percent: {hpPercent}%");
             Console.WriteLine();
             Console.WriteLine("The dragon withdrew and flew away, disappearing into the distance.");
+          
         }
     }
 }
