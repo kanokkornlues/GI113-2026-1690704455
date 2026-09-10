@@ -1,8 +1,8 @@
 ﻿/*
  * Student ID : 1690704455
- * Name       : 
+ * Name       : Kanokkorn Luesamut
  * Section    : 129D
- * No.        : 
+ * No.        : 23
  * Course     : GI113 Computer Programming (GI)
  */
 namespace Assignment01
